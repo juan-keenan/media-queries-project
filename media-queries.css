@@ -13,3 +13,7 @@
         background-color: orange;
     }
 }
+.responsive{
+    width: 100%;
+    height: auto;
+}
