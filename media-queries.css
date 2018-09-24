@@ -1,0 +1,15 @@
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (min-width: 900px) {
+    body{
+        background-color: red;
+    }
+}
+@media screen and (min-width:1200px) {
+    body {
+        background-color: orange;
+    }
+}
