@@ -1,19 +1,28 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
     body {
         background-color: lightblue;
-    }
-}
-@media only screen and (min-width: 900px) {
-    body{
-        background-color: red;
-    }
-}
-@media screen and (min-width:1200px) {
-    body {
-        background-color: orange;
     }
 }
 .responsive{
     width: 100%;
     height: auto;
+}
+h1 {
+    position: relative;
+    float:left;
+    width: 50%;
+}
+.nav-links {
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+.main {
+    float: left;
+    width: 50%;
+}
+.sub-section {
+    float: right;
+    font-style: italic;
+    width: 50%;
 }
