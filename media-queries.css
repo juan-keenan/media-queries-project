@@ -1,4 +1,5 @@
-@media only screen and (min-width: 768px) {
+/*mobile view*/
+@media only screen and (max-width: 768px) {
     body {
         background-color: lightblue;
     }
@@ -8,14 +9,52 @@
     height: auto;
 }
 h1 {
-    position: relative;
-    float:left;
+    position: fixed;
     width: 50%;
 }
 .nav-links {
+    width: 80%;
     position: relative;
-    display: inline-block;
+    box-sizing: border-box;
+    background-color: lightgrey;
+}
+.main {
+    float: left;
+    width: 50%;
+}
+.sub-section {
+    font-style: italic;
+    width: 50%;
+}
+
+
+
+
+
+
+/*desktop view*/
+@media only screen and (min-width: 750px) {
+    body {
+        background-color: white;
+    }
+}
+.responsive{
+    width: 80%;
+    height: auto;
+}
+h1 {
+    position: fixed;
+    float:left;
+    width: 40%;
+}
+.nav-links {
+    position: relative;
     float: right;
+}
+.nav-links>li {
+    float: right;
+    display: inline-block;
+
 }
 .main {
     float: left;
